@@ -11,13 +11,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    @media only screen and (max-width: 765px) {
-      display: block;
-      width: 90%;
-    }
+   
     @media only screen and (max-width:1020px) {
       display: block;
       width: 95%;
+    }
+    @media only screen and (max-width: 765px) {
+      display: block;
+      width: 90%;
     }
 
     .course-image {
@@ -37,10 +38,11 @@
 -moz-box-shadow: 0px 15px 13px 4px rgba(0,0,0,0.26);
       border-radius: 8px;
       background-color: $color-c2;
-      @media only screen and (max-width: 765px) {
-        width: 100%;
-      }
+     
       @media only screen and (max-width:1020px) {
+      width: 100%;
+    }
+    @media only screen and (max-width: 765px) {
       width: 100%;
     }
 

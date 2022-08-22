@@ -9,13 +9,14 @@
         display: flex;
         justify-content: space-between;
         color: $color-c2;
-        @media only screen and (max-width:765px) {
-            display: block;
-            width: 95%;
-        }
+        
         @media only screen and (max-width:1020px) {
         display: block;
         // flex-wrap: wrap;
+        width: 95%;
+    }
+    @media only screen and (max-width:765px) {
+        display: block;
         width: 95%;
     }
 
@@ -23,22 +24,24 @@
             width: 65%;
             display: flex;
             justify-content: space-around;
-            @media only screen and (max-width:765px) {
-                display: block;
-            }
+            
             @media only screen and (max-width:1020px) {
         width: 100%;
         display: flex;
         margin-bottom: 50px;
         // flex-wrap: wrap;
     }
+    @media only screen and (max-width:765px) {
+        display: block;
+    }
 
             .contact {
-                @media only screen and (max-width:765px) {
-                    margin-bottom: 50px;
-                }
+               
                 @media only screen and (max-width:1020px) {
         width: 50%;
+    }
+    @media only screen and (max-width:765px) {
+        margin-bottom: 50px;
     }
 
                 .contact-title {
@@ -115,11 +118,12 @@
                 }
             }
             .link {
-                @media only screen and (max-width:765px) {
-                    margin-bottom: 30px;
-                }
+               
                 @media only screen and (max-width:1020px) {
                     width: 50%;
+                }
+                @media only screen and (max-width:765px) {
+                    margin-bottom: 30px;
                 }
                 .link-title {
                     h2 {
@@ -146,11 +150,12 @@
                 }
             }
             .about {
-                @media only screen and (max-width:765px) {
-                    margin-bottom: 30px;
-                }
+               
                 @media only screen and (max-width:1020px) {
                     width: 50%;
+                }
+                @media only screen and (max-width:765px) {
+                    margin-bottom: 30px;
                 }
                 .about-title {
                     h2 {
