@@ -33,15 +33,15 @@
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 1020px) {
+  .header .container .logo {
+    width: 10%;
+  }
+}
 @media only screen and (max-width: 765px) {
   .header .container .logo {
     width: 20%;
     margin-bottom: 35px;
-  }
-}
-@media only screen and (max-width: 1020px) {
-  .header .container .logo {
-    width: 10%;
   }
 }
 .header .container .logo img {
@@ -155,13 +155,13 @@
   justify-content: space-between;
   width: 80%;
 }
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 1020px) {
   .carousel .container {
     display: block;
     width: 95%;
   }
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 765px) {
   .carousel .container {
     display: block;
     width: 95%;
@@ -189,12 +189,12 @@
 .carousel .carousel-img {
   width: 50%;
 }
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 1020px) {
   .carousel .carousel-img {
     width: 100%;
   }
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 765px) {
   .carousel .carousel-img {
     width: 100%;
   }
@@ -215,14 +215,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 1020px) {
   .teachers .container {
-    display: block;
     width: 95%;
   }
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 765px) {
   .teachers .container {
+    display: block;
     width: 95%;
   }
 }
@@ -291,16 +291,16 @@
   align-items: center;
   justify-content: space-around;
 }
-@media only screen and (max-width: 765px) {
-  .course .container {
-    display: block;
-    width: 90%;
-  }
-}
 @media only screen and (max-width: 1020px) {
   .course .container {
     display: block;
     width: 95%;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .course .container {
+    display: block;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 1020px) {
@@ -320,12 +320,12 @@
   border-radius: 8px;
   background-color: #fff;
 }
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 1020px) {
   .course .container .course-contact {
     width: 100%;
   }
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 765px) {
   .course .container .course-contact {
     width: 100%;
   }
@@ -455,13 +455,13 @@
   justify-content: space-between;
   color: #fff;
 }
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 1020px) {
   .footer .container {
     display: block;
     width: 95%;
   }
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 765px) {
   .footer .container {
     display: block;
     width: 95%;
@@ -472,11 +472,6 @@
   display: flex;
   justify-content: space-around;
 }
-@media only screen and (max-width: 765px) {
-  .footer .container .left {
-    display: block;
-  }
-}
 @media only screen and (max-width: 1020px) {
   .footer .container .left {
     width: 100%;
@@ -485,13 +480,18 @@
   }
 }
 @media only screen and (max-width: 765px) {
-  .footer .container .left .contact {
-    margin-bottom: 50px;
+  .footer .container .left {
+    display: block;
   }
 }
 @media only screen and (max-width: 1020px) {
   .footer .container .left .contact {
     width: 50%;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .footer .container .left .contact {
+    margin-bottom: 50px;
   }
 }
 .footer .container .left .contact .contact-title h2 {
@@ -550,14 +550,14 @@
 .footer .container .left .contact .contact-icon a i:hover {
   color: #191919;
 }
-@media only screen and (max-width: 765px) {
-  .footer .container .left .link {
-    margin-bottom: 30px;
-  }
-}
 @media only screen and (max-width: 1020px) {
   .footer .container .left .link {
     width: 50%;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .footer .container .left .link {
+    margin-bottom: 30px;
   }
 }
 .footer .container .left .link .link-title h2 {
@@ -582,14 +582,14 @@
   border-bottom: 1px solid #990171;
   padding: 5px 0px;
 }
-@media only screen and (max-width: 765px) {
-  .footer .container .left .about {
-    margin-bottom: 30px;
-  }
-}
 @media only screen and (max-width: 1020px) {
   .footer .container .left .about {
     width: 50%;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .footer .container .left .about {
+    margin-bottom: 30px;
   }
 }
 .footer .container .left .about .about-title h2 {
