@@ -230,16 +230,16 @@
   width: 22.2222222222%;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 1020px) {
+  .teachers .container .teacher {
+    width: 47%;
+  }
+}
 @media only screen and (max-width: 765px) {
   .teachers .container .teacher {
     width: 100%;
     margin: 0;
     box-shadow: none;
-  }
-}
-@media only screen and (max-width: 1020px) {
-  .teachers .container .teacher {
-    width: 47%;
   }
 }
 .teachers .container .teacher:hover {

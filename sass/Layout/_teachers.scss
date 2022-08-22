@@ -21,13 +21,14 @@
     .teacher {
       width: calc(100% / 4.5);
       margin-bottom: 20px;
-      @media only screen and (max-width:765px) {
-        width: 100%;
-        margin: 0;
-        box-shadow: none;
-      }
+      
       @media only screen and (max-width:1020px) {
       width: 47%;
+    }
+    @media only screen and (max-width:765px) {
+      width: 100%;
+      margin: 0;
+      box-shadow: none;
     }
 
       &:hover {
