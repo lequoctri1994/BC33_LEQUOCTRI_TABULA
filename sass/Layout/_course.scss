@@ -162,6 +162,13 @@
           border-radius: 30px;
           margin-top: 30px;
           width: 50%;
+          &:hover {
+            background-color: $color-c2;
+            border: solid 1px $color-c4;
+            color: $color-c4;
+            transition: ease-out;
+            transition-duration: 0.3s;
+          } 
     @media only screen and (max-width:768px) {
       width: 100%;
     }

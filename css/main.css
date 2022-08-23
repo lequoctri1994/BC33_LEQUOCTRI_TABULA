@@ -446,6 +446,13 @@
   margin-top: 30px;
   width: 50%;
 }
+.course .container .course-contact .course-find-button button:hover {
+  background-color: #fff;
+  border: solid 1px #B61984;
+  color: #B61984;
+  transition: ease-out;
+  transition-duration: 0.3s;
+}
 @media only screen and (max-width: 768px) {
   .course .container .course-contact .course-find-button button {
     width: 100%;
@@ -645,18 +652,16 @@
   padding: 10px 25px;
   border-radius: 30px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .footer .container .right .subscribe .subscribe-item .subscribe-item-input input::-moz-placeholder {
   color: #fff;
-  text-align: center;
 }
 .footer .container .right .subscribe .subscribe-item .subscribe-item-input input:-ms-input-placeholder {
   color: #fff;
-  text-align: center;
 }
 .footer .container .right .subscribe .subscribe-item .subscribe-item-input input::placeholder {
   color: #fff;
-  text-align: center;
 }
 .footer .container .right .subscribe .subscribe-item .subscribe-item-input input:focus {
   outline: none;
