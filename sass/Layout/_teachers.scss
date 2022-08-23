@@ -39,12 +39,16 @@
       }
 
       .teacher-img {
+        overflow: hidden;
         img {
           width: 100%;
           border-radius: 8px 8px 0px 0px;
-          // &:hover {
-
-          // }
+          
+          &:hover {
+            transform: scale(1.1);
+            transition: transform 1.5s;
+            overflow: hidden;
+          }
         }
       }
       .teacher-info {

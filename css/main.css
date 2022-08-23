@@ -250,9 +250,17 @@
   -moz-box-shadow: 10px 12px 82px -1px rgba(0, 0, 0, 0.6);
   border-radius: 8px;
 }
+.teachers .container .teacher .teacher-img {
+  overflow: hidden;
+}
 .teachers .container .teacher .teacher-img img {
   width: 100%;
   border-radius: 8px 8px 0px 0px;
+}
+.teachers .container .teacher .teacher-img img:hover {
+  transform: scale(1.1);
+  transition: transform 1.5s;
+  overflow: hidden;
 }
 .teachers .container .teacher .teacher-info {
   text-align: center;
@@ -437,8 +445,9 @@
   border: none;
   border-radius: 30px;
   margin-top: 30px;
+  width: 50%;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .course .container .course-contact .course-find-button button {
     width: 100%;
   }
